@@ -13,6 +13,7 @@
             ManaRegen = 20;
             AttackDistance = 1;
             AbilityDamageRate = 10;
+            StunOutDamage = 100;
         }
     }
 }

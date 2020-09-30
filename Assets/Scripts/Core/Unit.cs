@@ -112,18 +112,16 @@ namespace Core
             }
         }
 
-
         public void MoveTo(int x, int y)
         {
             _destX = x;
             _destY = y;
             _state = State.Move;
         }
-
-        public bool isStun(bool stun)
+        public void Stun()
         {
-            return stun;
+            _logic.OnStun();
         }
+
     }
-        
 }

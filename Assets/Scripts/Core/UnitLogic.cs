@@ -41,5 +41,9 @@
         public virtual void OnDie()
         {
         }
+
+        public virtual void OnStun()
+        {
+        }
     }
 }

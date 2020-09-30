@@ -17,6 +17,7 @@
             HealHpThresholdPercent = 25;
             HealValue = 200;
             AbilityDamageIncreaseStep = 10;
+            StunOutDamage = 100;
         }
     }
 }

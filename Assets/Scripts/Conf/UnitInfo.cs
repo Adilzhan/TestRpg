@@ -8,5 +8,6 @@
         public int Speed;
         public int Damage;
         public int AttackDistance;
+        public int StunOutDamage;
     }
 }

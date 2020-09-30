@@ -13,6 +13,7 @@
             AddBlue(new MeleeAssassinUnitInfo(), 50, 30);
             AddBlue(new MeleeAssassinUnitInfo(), 52, 30);
             AddBlue(new MeleeHedgehogUnitInfo(), 54, 35);
+            AddBlue(new MeleeMonkUnitInfo(), 56, 37);
             
             
             AddRed(new RangeArcherUnitInfo(),    42, 48);
@@ -22,6 +23,7 @@
             AddRed(new MeleeAssassinUnitInfo(),  50, 50);
             AddRed(new MeleeSoldierUnitInfo(),   52, 52);
             AddRed(new RangeArcherUnitInfo(),    54, 48);
+            AddRed(new MeleeMonkUnitInfo(), 56, 46);
         }
     }
 }

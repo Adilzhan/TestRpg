@@ -10,6 +10,7 @@ namespace Core
         {
             switch (info)
             {
+                case MeleeMonkUnitInfo i: return new MeleeMonkUnitLogic(i, unit, core);
                 case MeleeSoldierUnitInfo i: return new MeleeSoldierUnitLogic(i, unit, core);
                 case MeleeAssassinUnitInfo i: return new MeleeAssassinUnitLogic(i, unit, core);
                 case MeleeHedgehogUnitInfo i: return new MeleeHedgehogUnitLogic(i, unit, core);
